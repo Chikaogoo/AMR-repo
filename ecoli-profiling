@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+## This script is used to run the profiling of the E. coli dataset.
+
+
+# Set the path to the E. coli dataset
+DATASET_PATH="/path/to/ecoli/dataset"
+
+# Set the path to the output directory
+OUTPUT_DIR="/path/to/output/directory"  
+
+# Run the profiling script
+python profiling_script.py --dataset_path "$DATASET_PATH" --output_dir "$OUTPUT_DIR"    
+
+# Print a message indicating that the profiling is complete
+echo "Profiling of the E. coli dataset is complete. Results are saved in $OUTPUT_DIR."
+
+# Note: Make sure to replace "/path/to/ecoli/dataset" and "/path/to/output/directory" with the actual paths on your system.
+
